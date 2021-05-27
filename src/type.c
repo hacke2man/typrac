@@ -124,7 +124,6 @@ int main()
 
         wpm = (((float)i/6.1)/(int)(ctime - start))*60;
         mvprintw(LINES/2 + 3, COLS/2, "wpm:%f ", wpm);
-        mvprintw(LINES/2 + 4, COLS/2, "time:%d ", (int)(ctime - start));
 
         refresh();
         break;
